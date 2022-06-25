@@ -641,9 +641,8 @@ section{
 }
 
 .contact-content-container .left-contact .contact-info .contact-item p{
-
+    margin: .3rem 0 !important;
     padding: 0 !important;
-    margin: 0.2rem 0 0.5rem 0 !important;
 }
 
 .contact-content-container .left-contact .contact-info .contact-item .icon{
@@ -760,7 +759,6 @@ grid-template-columns: 40px 1fr;
     padding: 0.9rem 3rem;
     background-color:var(--color-primary);
     cursor: pointer;
-    margin-bottom: 5rem;
 }
 
 .send-email:hover{
@@ -866,13 +864,13 @@ grid-template-columns: 40px 1fr;
         flex-direction: column;
         padding-top: 6.5rem;
     }
-     .contact-content-container .left-contact p{
+    /* .contact-content-container .left-contact p{
         font-size: 0.7rem;
     }
 
     .contact-content-container .left-contact span{
-        font-size: 0.65rem;
-    } 
+        font-size: 0.7rem;
+    } */
     .contact-content-container .right-contact{
         margin-left: 0;
         margin-top: 2.5rem;
